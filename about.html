@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Sephora</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #fff0f6;
+      color: #333;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      color: #e91e63;
+    }
+
+    .menu-items {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .menu-items li {
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .menu-items li:hover {
+      color: #e91e63;
+    }
+
+    .about-container {
+      padding: 60px 80px;
+      max-width: 1000px;
+      margin: auto;
+      line-height: 1.8;
+    }
+
+    h1 {
+      color: #880e4f;
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    .back-home {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #e91e63;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: background 0.3s;
+    }
+
+    .back-home:hover {
+      background-color: #c2185b;
+    }
+
+    @media (max-width: 768px) {
+      .about-container {
+        padding: 30px 20px;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .menu-items {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2 class="logo">Sephora</h2>
+    <ul class="menu-items">
+      <li onclick="location.href='index.html'">Home</li>
+      <li onclick="location.href='login.html'">Login</li>
+      <li onclick="location.href='about.html'">About</li>
+    </ul>
+  </nav>
+
+  <div class="about-container">
+    <h1>About Us</h1>
+    <p>
+      At Sephora, we believe that beauty is a form of self-expression. Our mission is to empower every individual
+      to glow with confidence by offering high-quality, cruelty-free makeup products that suit all skin types and tones.
+    </p>
+    <p>
+      We collaborate with the best beauty brands and strive to bring you a curated collection of cosmetics that
+      combine elegance, innovation, and inclusivity. From daily essentials to glamorous looks, Sephora is your
+      trusted companion in your beauty journey.
+    </p>
+    <a href="index.html" class="back-home">← Back to Home</a>
+  </div>
+
+</body>
+</html>
