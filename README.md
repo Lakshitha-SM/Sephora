@@ -17,7 +17,8 @@ A simple and visually appealing **Makeup Products Website** built using **HTML, 
 
 ## 📸 Website Preview
 
-![Website Screenshot](screenshot.png)
+![Website Screenshot](sephora.png.jpg)
+
 
 ---
 
